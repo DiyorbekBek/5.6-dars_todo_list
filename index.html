@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me Todo List</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Awesome link start -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Awesome link End -->
+  </head>
+  <body>
+    <!-- HEADER START -->
+
+    <!-- <i class="fa-solid fa-moon fa-xl" id="moon"></i> -->
+
+    <header class="header">
+      <h1 class="header-titile">ToDo</h1>
+      <p class="header-description">Kundalik rejalar ro'yxati</p>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START-->
+    <main class="main">
+      <section class="features">
+        <!-- <i class="fa-solid fa-calendar-check fa-2xl"></i> -->
+        <img
+          class="img"
+          src="./images/ck.png"
+          alt=""
+          width="100"
+          height="100"
+        />
+        <h2 class="features-title" id="features-title">
+          Bugungi kundalik rejalar
+        </h2>
+        <form class="todoInput">
+          <input type="text" class="todo-input" />
+          <button class="todo-button" type="submit">
+            <i class="fa-regular fa-square-plus fa-xl"></i>
+          </button>
+        </form>
+        <div class="todo-container">
+          <small class="small-title"></small>
+          <ul class="todo-list"></ul>
+        </div>
+      </section>
+    </main>
+    <!-- MAIN END-->
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+      <p class="footer-descrip">By Diyor ® | 2023</p>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- JS -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

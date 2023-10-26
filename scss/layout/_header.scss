@@ -1,0 +1,23 @@
+.header {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.header-titile {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  line-height: 1.5;
+  color: rgb(16, 23, 86);
+}
+
+.fa-calendar-check {
+  margin-bottom: 15px;
+  color: chartreuse;
+}
+
+.header-description {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
